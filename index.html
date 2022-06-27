@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Modal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- flex box to center all the content -->
+    <div class="min-h-screen flex items-center justify-center min-h-screen bg-slate-100">
+        <div
+            class="flex flex-col p-6 m-3 space-y-10 bg-white rounded-2xl shadow-2xl md:flex-row md:space-y-0 md:space-x-10 md:m-0 md:p-16">
+            <!-- Image Div -->
+            <div class="">
+                <img src="https://cdn.vox-cdn.com/thumbor/lZF1UlVq9S6Xw9OWYLTY-kx-RmQ=/0x0:1920x1080/1200x1200/filters:focal(960x540:961x541)/cdn.vox-cdn.com/uploads/chorus_asset/file/22648758/AirPods_Max_Front_Press_Photo.jpeg"
+                    alt="" srcset="" class="w-60 rounded-xl mx-auto hover:scale-110 duration-200">
+
+            </div>
+            <!-- Product Title -->
+            <div class="flex flex-col space-y-6">
+                <div class="flex flex-col mb-4 space-y-3 text-center md:text-left">
+                    
+                    <div class="max-w-sm text-2xl font-medium"> Apple AirPods Max</div>
+                    <div class="flex flex-col mb-4 space-y-3 text-center md:text-left">
+                        <p class="line-through">$549</p>
+                        <p class="text-4xl font-bold">$499</p>
+                        <p class="text-sm font-light text-gray-400">This offer is valid until November 30 </p>
+                    </div>
+                </div>
+                <!-- button groups -->
+                <div class="group">
+                    <button class="transition-all duration-200 bg-blue-700 text-white w-full border-b-4 border-b-blue-700 rounded-lg group-hover:border-t-4 group-hover:border-b-0 group-hover:bg-blue-700 group-hover:border-t-blue-700 shadow-lg "><div class="px-8 py-2 bg-blue-500 rounded-lg group-hover:bg-blue-700 duration-200">Buy Now</div> </button>
+                </div>
+                <!-- Stock animation -->
+                <div class="flex items-center space-x-3 group">
+                    <div class="w-3 h-3 bg-green-500 rounded-full group-hover:animate-ping"></div>
+                    <div class="text-sm">50+ pieces in stock</div>
+                    <div>
+                        <div class="inline-block bg-gray-200 text-black px-3 py-1 text-xs rounded-full"> Free Shipping</div>
+                    </div>
+                </div>
+                <!-- add-to-cart button and wishlist -->
+                <div class="flex flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
+                    <button class="flex items-center justify-center py-2 shadow-sm hover:bg-opacity-30 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200  px-5 space-x-3 border-2 border-gray-300 rounded-lg">
+
+                        <img class="w-5 h-5"src="https://cdn-icons-png.flaticon.com/512/70/70021.png" alt="">
+                        <span>Add To Cart</span>
+                    </button>
+                    <button class="flex items-center justify-center py-2 shadow-sm hover:bg-opacity-30 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200  px-5 space-x-3 border-2 border-gray-300 rounded-lg">
+
+                        <img src="http://cdn.onlinewebfonts.com/svg/img_191151.png" class="w-5 h-5" alt="">
+                        <span>Add To wishlist</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
